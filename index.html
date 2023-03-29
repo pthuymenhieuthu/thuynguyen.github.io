@@ -1,0 +1,32 @@
+<html>
+
+
+
+import emoji from "react-easy-emoji";
+import splashAnimation from "thuynguyen/splashAnimation.json";
+
+
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
+};
+
+// Summary And Greeting Section
+
+const illustration = {
+  animated: true // Set to false to use static SVG
+};
+
+const greeting = {
+  username: "Thuy Nguyen",
+  title: "Hi all, I'm Thuy",
+  subTitle: emoji(
+    "A Social Media Enthusiast 🚀"
+  ),
+  resumeLink:
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  displayGreeting: true // Set false to hide this section, defaults to true
+};
+</html>
